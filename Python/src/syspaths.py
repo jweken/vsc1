@@ -3,7 +3,7 @@ import sys
 
 def ShowSysPaths():
     """
-        Show the paths that python can access.
+        Prints the paths python can access.
     """
     paths = sys.path
     for item in paths:
